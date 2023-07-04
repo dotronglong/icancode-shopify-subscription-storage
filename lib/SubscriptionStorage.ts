@@ -20,4 +20,12 @@ export default interface SubscriptionStorage {
    * @returns {Promise<void>}
    */
   setSubscription(shop: string, app: string, subscription: HashMap): Promise<void>; // eslint-disable-line max-len
+
+  /**
+   * Delete current subscription's entry
+   * @param {string} shop shop's id
+   * @param {string} app app's id
+   * @returns {Promise<void>}
+   */
+  deleteSubscription(shop: string, app: string): Promise<void>;
 }

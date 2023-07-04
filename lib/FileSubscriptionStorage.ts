@@ -49,4 +49,14 @@ export class FileSubscriptionStorage implements SubscriptionStorage {
   setSubscription(shop: string, app: string, subscription: HashMap): Promise<void> { // eslint-disable-line max-len
     return this.storage.setSettings(shop, app, subscription);
   }
+
+  /**
+   * Delete current subscription's entry
+   * @param {string} shop shop's id
+   * @param {string} app app's id
+   * @return {Promise<void>}
+   */
+  deleteSubscription(shop: string, app: string): Promise<void> {
+    return this.storage.deleteSettings(shop, app);
+  }
 }

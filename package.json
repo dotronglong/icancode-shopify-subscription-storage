@@ -37,6 +37,6 @@
   },
   "dependencies": {
     "@icancode/base": "^1.0.2",
-    "@icancode/shopify-setting-storage": "^1.0.2"
+    "@icancode/shopify-setting-storage": "^1.0.4"
   }
 }

@@ -563,6 +563,13 @@
   optionalDependencies:
     debug "^4.4.0"
 
+"@icancode/base@^1.1.11":
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/@icancode/base/-/base-1.1.11.tgz#68c294f6fac0ddb33297db0393eb9a7bd3bd8bb5"
+  integrity sha512-b+0H2X/Q+HCdb/ejKSM9rjceT+0Yr9iOy2hZDkub0k3247tmKIDPEfTfJzSM8jPK9Cz+DyMGsJzl8YEY+SBBSA==
+  optionalDependencies:
+    debug "^4.4.0"
+
 "@icancode/shopify-setting-storage@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@icancode/shopify-setting-storage/-/shopify-setting-storage-1.1.0.tgz#476c4a86d4ff9aa09910e598853079ad4f31f4c6"

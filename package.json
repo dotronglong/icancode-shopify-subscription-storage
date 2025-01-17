@@ -36,7 +36,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@icancode/base": "^1.1.0",
+    "@icancode/base": "^1.1.11",
     "@icancode/shopify-setting-storage": "^1.1.0"
   }
 }
